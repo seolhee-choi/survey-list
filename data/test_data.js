@@ -62,6 +62,25 @@ export const json = {
             {
               value: "Item 4",
               text: "50대"
+            },
+            {
+              type: "radiogroup",
+              name: "QuestionRadiogroup7",
+              title: "평소 우울감은 어느정도입니까?",
+              choices: [
+                {
+                  value: "Item 1",
+                  text: "없음"
+                },
+                {
+                  value: "Item 2",
+                  text: "보통"
+                },
+                {
+                  value: "Item 3",
+                  text: "심함"
+                }
+              ]
             }
           ]
         }
